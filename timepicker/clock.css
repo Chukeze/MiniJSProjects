@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background:radial-gradient(circle, rgba(2,0, 36,1) 0%, rgba(9,9,121,1)35%, rgba(29,59,221,1)65%, rgba(69,89,255,1)100% ) ;
+}
+.secondIdea{
+    height: max-content;
+    position: absolute;
+    top: 45%;
+    left: 42%;
+    font-size: 24px;
+}
+.time-pickable{
+    height: 100px;
+    width: 250px;
+    font-size: 24px;
+    background-color: #eeaeca;
+}
+.time-picker{
+    width: 250px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: 150px;
+    margin-top: 25%;
+}
+#hrs{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    height: 100%;
+    width: 33.67%;
+}
+#mins{
+    display: flex;
+    flex-direction: column;
+    background-color: tomato;
+    height: 100%;
+    width: 33.67%;
+}
+#sec{
+    display: flex;
+    flex-direction: column;
+    background-color: chartreuse;
+    height: 100%;
+    width: 33.67%;
+}
+.time{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    overflow-y: scroll;
+    padding: 30 10;
+    font-size: 22px;
+    height: 75%;
+}
+.amPM{
+    height: 100%;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+#session{
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.23rem;
+    padding: 10px 0;
+    margin-top: 80%;
+}

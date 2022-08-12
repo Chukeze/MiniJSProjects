@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #473911;
+}
+.modal-button{
+    position: absolute;
+    top: 5%;
+    right: 20%;
+}
+.timepicker-button{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
+.quote-button{
+    position: absolute;
+    top: 5%;
+    right: 27.5%;
+}
+.container{
+    width: 60%;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 3px;
+}
+#timer{
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 35px;
+}
+.buttons{
+    text-align: center;
+}
+button{
+    margin: 0 10px;
+    border: none;
+}
+button i{
+    font-size: 2rem;
+    padding: 10px;
+    color: #fff;
+}
+#play{
+    background-color: green;
+}
+#pause{
+    background-color: orange;
+}
+#reset{
+    background-color: red;
+}

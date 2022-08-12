@@ -1,4 +1,3 @@
-
 export function activate() {
 	document.head.insertAdjacentHTML("beforeend", `
 		<style>
